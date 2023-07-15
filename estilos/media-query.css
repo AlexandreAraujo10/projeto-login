@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Telas Pequenas: 600px
+   Celular: de 600px até 678px
+   Tablet: de 678px até 992px
+   Desktop: de 992px até 1200px
+   Grandes Telas: acima de 1200px
+   */
+
+@media screen and (min-width: 678px) and (max-width: 992px) { /* essa conf. é p/ versão de Tablet */
+    body {
+        background-image: linear-gradient(to top, #49a49d, #5f2c82);
+    }
+    section#login {
+        width: 80vw;
+    }
+    section#login > div#imagem {
+        float: left;  /* é p/ deixar a imagem ao lado esquerdo */
+        width: 40%;
+        height: 100%;
+        transition: width 0.3s, height 0.3s;
+    }
+    section#login > div#formulario {
+        width: 60%;
+        float: right; /* aparecerá o formulario a direita */
+    }
+   
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* essa conf. é p/ versão de Grandes Telas */
+    body {
+        background-image: linear-gradient(to top, #49a49d, #5f2c82);
+    }
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left; /* é p/ deixar a imagem ao lado esquerdo */
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    section#login > div#formulario {
+        width: 40%;
+        float: right; /* aparecerá o formulario a direita */
+    }
+    div#formulario > p {
+        padding-right: 40px;
+        
+    }
+}
