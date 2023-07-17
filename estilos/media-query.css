@@ -27,7 +27,7 @@
    
 }
 
-@media screen and (min-width: 992px) and (max-width: 1350px){ /* essa conf. é p/ versão de Grandes Telas */
+@media screen and (min-width: 992px) and (max-width: 1400px){ /* essa conf. é p/ versão de Grandes Telas */
     body {
         background-image: linear-gradient(to top, #49a49d, #5f2c82);
     }
