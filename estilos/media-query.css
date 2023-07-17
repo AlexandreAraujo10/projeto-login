@@ -4,7 +4,7 @@
    Celular: de 600px até 678px
    Tablet: de 678px até 992px
    Desktop: de 992px até 1200px
-   Grandes Telas: acima de 1400px
+   Grandes Telas: acima de 1200px
    */
 
 @media screen and (min-width: 678px) and (max-width: 992px) { /* essa conf. é p/ versão de Tablet */
@@ -35,17 +35,16 @@
         width: 950px;
     }
     section#login > div#imagem {
-        float: left; /* é p/ deixar a imagem ao lado esquerdo */
+        float: right; /* é p/ deixar a imagem ao lado esquerdo */
         width: 50%;
         height: 100%;
-        float: left;
     }
     section#login > div#formulario {
         width: 40%;
-        float: right; /* aparecerá o formulario a direita */
+        float: left; /* aparecerá o formulario a direita */
     }
     div#formulario > p {
-        padding-right: 40px;
+        padding-left: 40px;
         
     }
 }
