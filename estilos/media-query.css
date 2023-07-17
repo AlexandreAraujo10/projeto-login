@@ -43,8 +43,12 @@
         width: 40%;
         float: left; /* aparecerá o formulario a direita */
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
     div#formulario > p {
-        padding-left: 40px;
-        
+        font-size: 1.2em;
     }
 }
