@@ -61,3 +61,57 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+form > div.campo {
+    display: block;
+    background-color: #5f2c82;
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    margin: 5px 0px; /* a margem cima e a de baixo 5px, lado com 0px */
+    padding-bottom: 10px;
+}
+
+div.campo > label {
+    display: none; /* é p/ tirar a palavra (login e senha) */
+}
+
+form > input[type=submit] {  /* essa conf. é p/ botão (entrar) */
+    display: block;
+    font-size: 1em;
+    width: 100%; /* não pode ser (100vw) por que é 100% do container */
+    height: 40px; /* altura da caixa, (entrar) */
+    background-color: #49a49d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* p/ quando passar o mouse, virar uma mãozinha */
+}
+
+form > input[type=submit]:hover {
+    background-color: #2e6b66;
+}
+
+form > a.botao {  /* essa conf. é p/ botão (esqueci a senha) */
+    display: block; /* p/ exibir em bloco, se não dá certo outras conf. abaixo */
+    text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    height: 40px;
+    background-color: #b4f0eb;
+    color: #2e6b66;
+    border: 1px solid #49a49d;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+form > a.botao:hover { /* essa conf. é p/ botão (esqueci a senha) */
+    background-color: white;
+    color: #5f2c82;
+}
+
+form > a.botao > i { /* é p/ botão e o ícone que está dentro */
+    font-size: 0.8em;
+
+}
