@@ -28,7 +28,7 @@ main {
 section#login {
     background-color: white;
     width: 250px; /* largura da tela do celular (mobile first) */
-    height: 500px; /* altura da tela do celular */
+    height: 515px; /* altura da tela do celular */
     border-radius: 20px;
     position: absolute; /* p/ fazer ele ficar no meio da tela */
     top: 50%; /* p/ fazer ele ficar no meio da tela */
@@ -67,14 +67,16 @@ form > div.campo {
     background-color: #5f2c82;
     width: 100%;
     height: 40%;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px; /* a margem cima e a de baixo 5px, lado com 0px */
-    padding-bottom: 10px;
+    
 }
 
 div.campo > label {
     display: none; /* é p/ tirar a palavra (login e senha) */
 }
+
+
 
 form > input[type=submit] {  /* essa conf. é p/ botão (entrar) */
     display: block;
@@ -95,7 +97,7 @@ form > input[type=submit]:hover {
 form > a.botao {  /* essa conf. é p/ botão (esqueci a senha) */
     display: block; /* p/ exibir em bloco, se não dá certo outras conf. abaixo */
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     width: 100%;
     height: 40px;
     background-color: #b4f0eb;
@@ -104,11 +106,12 @@ form > a.botao {  /* essa conf. é p/ botão (esqueci a senha) */
     border-radius: 5px;
     margin-top: 5px;
     padding-top: 5px;
+    text-decoration: none;
 }
 
 form > a.botao:hover { /* essa conf. é p/ botão (esqueci a senha) */
     background-color: white;
-    color: #5f2c82;
+    
 }
 
 form > a.botao > i { /* é p/ botão e o ícone que está dentro */
