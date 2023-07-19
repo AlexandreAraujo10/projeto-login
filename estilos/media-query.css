@@ -13,6 +13,7 @@
     }
     section#login {
         width: 80vw;
+        height: 300px;
     }
     section#login > div#imagem {
         float: left;  /* é p/ deixar a imagem ao lado esquerdo */
@@ -33,6 +34,7 @@
     }
     section#login {
         width: 950px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: right; /* é p/ deixar a imagem ao lado esquerdo */
@@ -49,6 +51,7 @@
     }
     
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
